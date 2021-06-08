@@ -3,10 +3,13 @@ We use SDL to make a C++ breakout clone game.
 
 # How to play?
 P1
-Press the "Left" and "Right" to left and right.
 
+Press the "Left" and "Right" to move left and right.
+press "Up" can make the board move faster.
 P2
+
 Press the "A" and "D" to move left and right.
+press "W" can make the board move faster.
 
 
 # Function  
