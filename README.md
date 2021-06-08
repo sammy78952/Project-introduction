@@ -2,7 +2,12 @@
 We use SDL to make a C++ breakout clone game.
 
 # How to play?
-Press the "A" and "D" to move left and right
+P1
+Press the "Left" and "Right" to left and right.
+
+P2
+Press the "A" and "D" to move left and right.
+
 
 # Function  
            1. Sphere rebound function
