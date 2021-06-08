@@ -1,14 +1,18 @@
 # Project-introduction
 We use SDL to make a C++ breakout clone game.
 
+Two players control board to rebound the ball and eliminate block.
+
+When you let the ball touch the upper and lower borders, the game over.
+
 # How to play?
-Player1:
+P1
 
 Press the "Left" and "Right" to move left and right.
 
 press "Up" can make the board move faster.
 
-Player2:
+P2
 
 Press the "A" and "D" to move left and right.
 
@@ -24,20 +28,12 @@ press "W" can make the board move faster.
 # Goal 
 Two players cooperate to pass and receive the ball. Keep the ball out of the line.
 
-# Install
-1.Microsoft Visual Studio
+# install
+1.Download Visual Comunity 2019
 https://visualstudio.microsoft.com/zh-hant/downloads/
-
-Download Visual comunity 2019
-
 
 2.SDL2 
 https://www.libsdl.org/download-2.0.php
 
-Download SDL2 development libraries
-
-
 3.SDL2 image
 https://www.libsdl.org/projects/SDL_image/
-
-Download SDL2 image development libraries
