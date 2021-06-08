@@ -9,15 +9,15 @@ When you let the ball touch the upper and lower borders, the game over.
 
 Player1:
 
-Press the "Left" and "Right" to move left and right.
+-Press the "Left" and "Right" to move left and right.
 
-press "Up" can make the board move faster.
+ press "Up" can make the board move faster.
 
 Player2:
 
-Press the "A" and "D" to move left and right.
+-Press the "A" and "D" to move left and right.
 
-press "W" can make the board move faster.
+ press "W" can make the board move faster.
 
 
 # Function  
