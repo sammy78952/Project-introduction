@@ -30,10 +30,12 @@ https://visualstudio.microsoft.com/zh-hant/downloads/
 
 Download Visual comunity 2019
 
+
 2.SDL2 
 https://www.libsdl.org/download-2.0.php
 
 Download SDL2 development libraries
+
 
 3.SDL2 image
 https://www.libsdl.org/projects/SDL_image/
