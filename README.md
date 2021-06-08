@@ -13,12 +13,11 @@ We use SDL to make a C++ breakout clone game.
 Two players cooperate to pass and receive the ball. Keep the ball out of the line.
 
 # install
-1.Visual 2019 
-Download Visual Comunity 2019
+1.Download Visual Comunity 2019
 https://visualstudio.microsoft.com/zh-hant/downloads/
 
-2.SDL 
+2.SDL2 
 https://www.libsdl.org/download-2.0.php
 
-3.SDL image
+3.SDL2 image
 https://www.libsdl.org/projects/SDL_image/
