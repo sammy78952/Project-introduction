@@ -2,6 +2,11 @@
 We use SDL to make a C++ breakout clone game.
 
 # How to play?
+
+Two players control board to rebound the ball and eliminate block.
+
+When you let the ball touch the upper and lower borders, the game over.
+
 Player1:
 
 Press the "Left" and "Right" to move left and right.
