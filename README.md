@@ -1,6 +1,8 @@
 # Project-introduction
 We use SDL to make a C++ breakout clone game.
 
+# How to play?
+
 # Function  
            1. Sphere rebound function
            2. Eliminate block function
