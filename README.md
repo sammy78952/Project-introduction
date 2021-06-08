@@ -24,12 +24,18 @@ press "W" can make the board move faster.
 # Goal 
 Two players cooperate to pass and receive the ball. Keep the ball out of the line.
 
-# install
-1.Download Visual Comunity 2019
+# Install
+1.Microsoft Visual Studio
 https://visualstudio.microsoft.com/zh-hant/downloads/
+
+Download Visual comunity 2019
 
 2.SDL2 
 https://www.libsdl.org/download-2.0.php
 
+Download SDL2 development libraries
+
 3.SDL2 image
 https://www.libsdl.org/projects/SDL_image/
+
+Download SDL2 image development libraries
