@@ -1,13 +1,12 @@
 ﻿#include <stdbool.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream>
 #include <math.h>
 #include <SDL.h>
 #include <SDL_image.h>
 //視窗属性
 #define WINDOW_WIDTH  640//視窗寬度
 #define WINDOW_HEIGHT  600//視窗長度
-
+using namespace std ;
 
 //位置
 SDL_Rect BlockRect; //方塊
@@ -155,8 +154,7 @@ int main(int argc, char* argv[])
             UpdateLogic();//更新邏輯
 
         }
-        else {
-            
+        else {            
             quit = true;
         }
 
@@ -168,6 +166,7 @@ int main(int argc, char* argv[])
     SDL_FreeSurface(Block);
     SDL_FreeSurface(BallSueface);
     SDL_DestroyWindow(window);
+    printf("Game over");
     SDL_Quit();
 
 
@@ -320,8 +319,6 @@ int UpdateLogic(void)
     {
         BallRect.y = BallRect.y + BallSpeed;
         if (BallRect.y + BallRect.h >= WINDOW_HEIGHT) {
-            
-            printf("Game over");
             SDL_Quit();
             return 0;
         }
@@ -334,9 +331,7 @@ int UpdateLogic(void)
     else
     {
         BallRect.y = BallRect.y - BallSpeed;
-        if (BallRect.y <= 0) {
-           
-            printf("Game over");
+        if (BallRect.y <= 0) {                      
             SDL_Quit();
             return 0;
         }
