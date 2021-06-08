@@ -1,12 +1,11 @@
 ﻿#include <stdbool.h>
-#include <iostream>
+#include <studio.h>
 #include <math.h>
 #include <SDL.h>
 #include <SDL_image.h>
 //視窗属性
 #define WINDOW_WIDTH  640//視窗寬度
 #define WINDOW_HEIGHT  600//視窗長度
-using namespace std ;
 
 //位置
 SDL_Rect BlockRect; //方塊
