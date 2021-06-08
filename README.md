@@ -1,5 +1,5 @@
 # Project-introduction
-We use SDL to make a C++ breakout clone game.
+We use SDL to make a C language breakout clone game.
 
 # How to play?
 
