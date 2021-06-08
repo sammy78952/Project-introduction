@@ -1,5 +1,6 @@
 ﻿#include <stdbool.h>
 #include <studio.h>
+#include <stdlib>
 #include <math.h>
 #include <SDL.h>
 #include <SDL_image.h>
