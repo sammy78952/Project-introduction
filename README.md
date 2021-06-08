@@ -47,3 +47,4 @@ https://www.libsdl.org/projects/SDL_image/
 
 # Current development progress
 We can’t generate random blocks repeatedly and we haven’t joined the scoring system yet.
+We will add start and pause buttons later.
