@@ -53,7 +53,7 @@ const int BlockH = 32;//方塊的高度
 //球移動速度
 int BoardSpeed = 3;
 int Board2Speed = 3;//反彈棒移動速度
-int BallSpeed = 2;//小球移動速度
+int BallSpeed = 2;//球移動速度
 
 //控制反彈棒的移動方向
 bool moveBoardLeft = false;
@@ -71,8 +71,8 @@ int UpdateLogic(void);//更新邏輯
 void randnum();
 void draw(void);
 int check_collision();//檢查球與方塊的碰撞
-bool checkCollision(SDL_Rect A, SDL_Rect B);
-bool checkCollision(SDL_Rect A, SDL_Rect C);//球與反彈棒相撞檢測
+bool checkCollision(SDL_Rect A, SDL_Rect B);//球與反彈棒相撞檢測
+bool checkCollision(SDL_Rect A, SDL_Rect C);//球與反彈棒2相撞檢測
 double GetDistance(int x1, int y1, int x2, int y2);//兩點距離
 
 
@@ -114,7 +114,7 @@ int main(int argc, char* argv[])
                 {
                     BoardSpeed = 5;
                 }
-                if (event.key.keysym.sym == SDLK_w)
+                if (event.key.keysym.sym == SDLK_w)//加速
                 {
                     Board2Speed = 5;
                 }
@@ -141,7 +141,7 @@ int main(int argc, char* argv[])
                 {
                     BoardSpeed = 3;
                 }
-                if (event.key.keysym.sym == SDLK_w)
+                if (event.key.keysym.sym == SDLK_w)//加速取消
                 {
                     Board2Speed = 3;
                 }
@@ -252,7 +252,7 @@ bool checkCollision2(SDL_Rect A, SDL_Rect C)
 
 int UpdateLogic(void)
 {
-    //更新圖片，如果index=2,代表碰撞，更換碎方塊
+    //更新圖片，如果index=2,代表碰撞，更換成碎方塊
     int x, y;
     for (x = 5; x < 13; x++)
     {
@@ -565,7 +565,7 @@ int check_collision()
                     }
                     else
                     {
-                        //printf("x:%d...y:%d\n",x,y);
+                        //printf("x=%d y=%d\n",x,y);
                     }
                 }
             }
