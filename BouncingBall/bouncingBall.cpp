@@ -13,7 +13,7 @@
 SDL_Rect BlockRect; //方塊
 SDL_Rect BallRect; //球
 SDL_Rect BoardRect; //反彈棒
-SDL_Rect Board2Rect;
+SDL_Rect Board2Rect; //反彈棒2
 
 //事件
 SDL_Event event;
