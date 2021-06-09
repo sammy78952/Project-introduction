@@ -44,6 +44,8 @@ https://www.libsdl.org/projects/SDL_image/
 
 -Download SDL2 image development libraries.
 
+Download reference: https://www.youtube.com/watch?v=tmGBhM8AEj8
+
 # Current development progress
 We can’t generate random blocks repeatedly and we haven’t joined the scoring system yet.
 We will add start and pause buttons later.
