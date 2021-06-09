@@ -32,7 +32,7 @@ Two players cooperate to pass and receive the ball. Keep the ball out of the lin
 1.Microsoft Visual Studio
 https://visualstudio.microsoft.com/zh-hant/downloads/
 
--Download Visual comunity 2019.
+-Download Visual community 2019.
 
 2.SDL2 
 https://www.libsdl.org/download-2.0.php
