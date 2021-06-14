@@ -630,6 +630,7 @@ int check_collision()
                 {
                     //BlickManager[i][j].state = false;
                     BlickManager[i][j].index = 2;//把方塊設置成碎方塊
+                    ++score; //加分!
                     if (cx < x && y >= BlickManager[i][j].TargetRect.y && y <= BlickManager[i][j].TargetRect.y + BlockH)//碰到左邊
                     {
                         //printf("touch left\n");
