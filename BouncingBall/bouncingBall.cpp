@@ -505,15 +505,15 @@ void init()
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
     //載入圖片
-    BallSueface = IMG_Load("C:/Project_image/ballgrey.bmp");//球
+    BallSueface = IMG_Load("images/ballgrey.bmp");//球
 
-    BoardSurface = IMG_Load("C:/Project_image/Board.bmp");//反彈棒
+    BoardSurface = IMG_Load("images/Board.bmp");//反彈棒
 
-    Board2Surface = IMG_Load("C:/Project_image/Boardred.bmp");//反彈棒2
+    Board2Surface = IMG_Load("images/Boardred.bmp");//反彈棒2
 
-    Block = IMG_Load("C:/Project_image/element_red_rectangle.bmp");//方塊
+    Block = IMG_Load("images/element_red_rectangle.bmp");//方塊
 
-    breakBlock = IMG_Load("C:/Project_image/element_red_rectangle_break.bmp");//碎方塊
+    breakBlock = IMG_Load("images/element_red_rectangle_break.bmp");//碎方塊
 
     BallTT = SDL_CreateTextureFromSurface(renderer, BallSueface);
 
