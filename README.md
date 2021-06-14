@@ -47,10 +47,9 @@ https://www.libsdl.org/projects/SDL_image/
 4.SDL2 ttf
 https://www.libsdl.org/projects/SDL_ttf/
 
+-Download SDL2 ttf development libraries.
+
 Download reference: https://www.youtube.com/watch?v=tmGBhM8AEj8
 
-# Current development progress
-We can’t generate random blocks repeatedly and we haven’t joined the scoring system yet.
-We will add start and pause buttons later.
 
-In the future, we will design a web page and let our mini game execute on the web page.
+In the future, we will design a web page and let our mini-game execute on the web page.
