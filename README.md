@@ -44,6 +44,9 @@ https://www.libsdl.org/projects/SDL_image/
 
 -Download SDL2 image development libraries.
 
+4.SDL2 ttf
+https://www.libsdl.org/projects/SDL_ttf/
+
 Download reference: https://www.youtube.com/watch?v=tmGBhM8AEj8
 
 # Current development progress
