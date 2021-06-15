@@ -77,7 +77,7 @@ SSurface BlickManager[13][10];//結構體陣列，存放方塊結構體
 const int BlockW = 64;//方塊的寬度
 const int BlockH = 32;//方塊的高度
 
-//球移動速度
+//移動速度
 int BoardSpeed = 3;
 int Board2Speed = 3;//反彈棒移動速度
 int BallSpeed = 2;//球移動速度
