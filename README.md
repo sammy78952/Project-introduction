@@ -36,11 +36,11 @@ Two players cooperate to pass and receive the ball. Keep the ball out of the lin
            4. Randomly generate obstacles
            5. Scoring system
            6. Show score
+           
 
 # Download and Install
 1.Microsoft Visual Studio
-https://visualstudio.microsoft.com/zh-hant/downloads/
-
+https://visualstudio.microsoft.com/zh-hant/downloads/a
 -Download Visual community 2019.
 
 2.SDL2 
@@ -65,6 +65,6 @@ https://www.libsdl.org/projects/SDL_ttf/
 
 Download reference: https://www.youtube.com/watch?v=tmGBhM8AEj8
 
-
+We will fix the judgment of the corner collision of the block and fix the bug of repeated judgment collisions.
 
 In the future, we will design a web page and let our mini-game execute on the web page.
