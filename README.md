@@ -37,7 +37,7 @@ Two players cooperate to pass and receive the ball. Keep the ball out of the lin
            5. Scoring system
            6. Show score
 
-# Install
+# Download and Install
 1.Microsoft Visual Studio
 https://visualstudio.microsoft.com/zh-hant/downloads/
 
