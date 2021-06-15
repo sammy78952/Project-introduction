@@ -30,9 +30,9 @@ Player2:
 Two players cooperate to pass and receive the ball. Keep the ball out of the line.
 
 # Function  
-           1. Sphere rebound function
+           1. ball rebound function
            2. Eliminate block function
-           3. The user manipulates a board to bounce the sphere
+           3. The user manipulates a board to bounce the ball
            4. Randomly generate obstacles
            5. Scoring system
            6. Show score
