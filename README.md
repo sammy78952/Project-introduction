@@ -3,7 +3,7 @@ We use SDL to make a C/C++ language breakout clone game.
 This game is mainly through two-player cooperation to eliminate blocks to get points.
 Blocks will be generated at random locations within the agreed range,
 and one or two blocks will be generated every time a block is cleared, 
-and one point will be added until the sphere touches the upper and lower borders to show the end of the game and the score.
+and one point will be added until the ball touches the upper and lower borders to show the end of the game and the score.
 
 
 # How to play?
