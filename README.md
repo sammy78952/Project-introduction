@@ -1,5 +1,5 @@
 # Project-introduction
-We use SDL to make a C language breakout clone game.
+We use SDL to make a C/C++ language breakout clone game.
 This game is mainly through two-player cooperation to eliminate cubes to get points.
 Blocks will be generated at random locations within the agreed range,
 and one or two blocks will be generated every time a block is cleared, 
