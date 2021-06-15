@@ -36,7 +36,7 @@ TTF_Font* font;
 
 //分數文字
 int scoreFontReslution = 50; //字體解析度
-SDL_Color scoreColor = { 255, 255, 255, 0 }; //字體顏色 {red, green, blue ,alpha}
+SDL_Color scoreColor = { 255, 255, 255, 80 }; //字體顏色 {red, green, blue ,alpha}
 SDL_Rect scoreRect = { 540, 500, 60, 80 }; //字體尺寸 {起始x, 起始y, width, height}
 
 //統計文字
