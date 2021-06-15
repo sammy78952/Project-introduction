@@ -58,8 +58,9 @@ https://www.libsdl.org/projects/SDL_ttf/
 
 -Download SDL2 ttf development libraries.
 
-5.Font
-[Open_Sans.zip](https://github.com/sammy78952/Project-introduction/files/6656351/Open_Sans.zip)
+5.Resources
+
+ [Resources.zip](https://github.com/sammy78952/Project-introduction/files/6656451/Resources.zip)
 
 -Download Font .
 
