@@ -1,6 +1,9 @@
 # Project-introduction
-We use SDL to make a C language breakout clone game.
-
+We use SDL to make a C++ language breakout clone game.
+This game is mainly through two-player cooperation to eliminate cubes to get points.
+Blocks will be generated at random locations within the agreed range,
+and one or two blocks will be generated every time a block is cleared, 
+and one point will be added until the sphere touches the upper and lower borders to show the end of the game and the score.
 
 
 # How to play?
@@ -31,7 +34,8 @@ Two players cooperate to pass and receive the ball. Keep the ball out of the lin
            2. Eliminate block function
            3. The user manipulates a board to bounce the sphere
            4. Randomly generate obstacles
-           5.
+           5. Scoring system
+           6. Show score
 
 # Install
 1.Microsoft Visual Studio
