@@ -1,11 +1,15 @@
 # Project-introduction
 We use SDL to make a C language breakout clone game.
 
+
+
 # How to play?
 
 Two players control board to rebound the ball and eliminate block.
 
 When you let the ball touch the upper and lower borders, the game over.
+
+Press the "space" or "Enter" to start and stop game.
 
 Player1:
 
@@ -27,6 +31,7 @@ Two players cooperate to pass and receive the ball. Keep the ball out of the lin
            2. Eliminate block function
            3. The user manipulates a board to bounce the sphere
            4. Randomly generate obstacles
+           5.
 
 # Install
 1.Microsoft Visual Studio
