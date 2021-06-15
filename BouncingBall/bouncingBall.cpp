@@ -570,15 +570,15 @@ void init()
     //SDL_RenderClear(renderer);
 
     //載入圖片
-    BallSueface = IMG_Load("images/ballgrey.bmp");//球
+    BallSueface = IMG_Load("BouncingBall/Resources/ballgrey.bmp");//球
 
-    BoardSurface = IMG_Load("images/Board.bmp");//反彈棒
+    BoardSurface = IMG_Load("BouncingBall/Resources/Board.bmp");//反彈棒
 
-    Board2Surface = IMG_Load("images/Boardred.bmp");//反彈棒2
+    Board2Surface = IMG_Load("BouncingBall/Resources/Boardred.bmp");//反彈棒2
 
-    Block = IMG_Load("images/element_red_rectangle.bmp");//方塊
+    Block = IMG_Load("BouncingBall/Resources/element_red_rectangle.bmp");//方塊
 
-    breakBlock = IMG_Load("images/element_red_rectangle_break.bmp");//碎方塊
+    breakBlock = IMG_Load("BouncingBall/Resources/element_red_rectangle_break.bmp");//碎方塊
 
     BallTT = SDL_CreateTextureFromSurface(renderer, BallSueface);
 
@@ -591,7 +591,7 @@ void init()
     breakBlockTT = SDL_CreateTextureFromSurface(renderer, breakBlock);
 
     //載入文字
-    font = TTF_OpenFont("ttf/OpenSans-Bold.ttf", scoreFontReslution);//字體
+    font = TTF_OpenFont("BouncingBall/Resources/OpenSans-Bold.ttf", scoreFontReslution);//字體
 
     //初始位置
     BallRect.x = WINDOW_WIDTH / 2 - (BallSueface->w / 2);
