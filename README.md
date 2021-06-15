@@ -60,5 +60,6 @@ https://www.libsdl.org/projects/SDL_ttf/
 
 Download reference: https://www.youtube.com/watch?v=tmGBhM8AEj8
 
+[Open_Sans.zip](https://github.com/sammy78952/Project-introduction/files/6656351/Open_Sans.zip)
 
 In the future, we will design a web page and let our mini-game execute on the web page.
