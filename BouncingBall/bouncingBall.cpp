@@ -142,7 +142,11 @@ int main(int argc, char* argv[])
                 {
                     moveBoardRight = true;
                 }
-
+                  if (event.key.keysym.sym == SDLK_UP)//反彈棒加速
+                {
+                    BoardSpeed = 5;
+                }
+                
                 if (event.key.keysym.sym == SDLK_a)//左移動
                 {
                     moveBoard2Left = true;
@@ -150,12 +154,7 @@ int main(int argc, char* argv[])
                 else if (event.key.keysym.sym == SDLK_d)//右移動
                 {
                     moveBoard2Right = true;
-                }
-
-                if (event.key.keysym.sym == SDLK_UP)//反彈棒加速
-                {
-                    BoardSpeed = 5;
-                }
+                }              
                 if (event.key.keysym.sym == SDLK_w)//反彈棒2加速
                 {
                     Board2Speed = 5;
@@ -171,6 +170,11 @@ int main(int argc, char* argv[])
                 {
                     moveBoardRight = false;
                 }
+                if (event.key.keysym.sym == SDLK_UP)//加速取消
+                {
+                    BoardSpeed = 3;
+                }
+                
                 if (event.key.keysym.sym == SDLK_a)//左移動取消
                 {
                     moveBoard2Left = false;
@@ -179,10 +183,7 @@ int main(int argc, char* argv[])
                 {
                     moveBoard2Right = false;
                 }
-                if (event.key.keysym.sym == SDLK_UP)//加速取消
-                {
-                    BoardSpeed = 3;
-                }
+                
                 if (event.key.keysym.sym == SDLK_w)//加速取消
                 {
                     Board2Speed = 3;
