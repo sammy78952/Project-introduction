@@ -65,6 +65,7 @@ https://www.libsdl.org/projects/SDL_ttf/
 -Download Font and image.
 
 Download reference: https://www.youtube.com/watch?v=tmGBhM8AEj8
+
 You can see our user manual for detailed content: https://github.com/sammy78952/Project-introduction/blob/main/User's%20Manual.pdf
 ---------------------------------------------------------------
 
