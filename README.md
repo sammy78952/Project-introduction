@@ -65,6 +65,7 @@ https://www.libsdl.org/projects/SDL_ttf/
 -Download Font and image.
 
 Download reference: https://www.youtube.com/watch?v=tmGBhM8AEj8
+---------------------------------------------------------------
 
 We will fix the judgment of the corner collision of the block and fix the bug of repeated judgment collisions.
 
