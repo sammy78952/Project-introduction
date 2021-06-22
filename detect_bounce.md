@@ -4,7 +4,10 @@ right border: If the x-coordinate of the ball plus the width of the ball is grea
 
 left border: If the x-coordinate of the ball is less than 0, it will collide and bounce.
 
-top bounce board: if the y-coordinate of the ball greater than the board 
+top bounce board: if the y-coordinate of the ball is greater than the height of the board, it will collide and bounce.
+
+bottom bounce board: if the y-coordinate plus the height of the ball is less than the board y-coordinate, it will collide and bounce.
+ 
 
 2. Collision with blocks
  First, we will let the blocks determine the position of the ball through the x y coordinates. For example, if the x coordinate of the ball is smaller than the x coordinate of the blocks, then the ball is on the left side of the blocks.
