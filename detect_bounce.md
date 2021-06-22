@@ -18,6 +18,8 @@ We calculate the direction of the bounce, which is judged from the part of "ball
 Based on int check_collision()and double GetDistance(int x1, int y1, int x2, int y2) calculations.There are the coordinates of the ball and the radius of the circle.When the distance between two points is less than the radius, a collision occurs.
 Taking the right boundary of the ball bounced as an example, when the coordinates of the ball are greater than or equal to the width of the window, it will bounce to the left.
 
-
+The movement of the ball is mainly divided into right and down
+If move right = true, the ball's x coordinate will add the ball speed; move right = false, the ball's x coordinate will reduce the ball speed.
+If move down = true, the ball's y coordinate will add the ball speed; move down = false the ball's y coordinate will reduce the ball speed.
 
 
